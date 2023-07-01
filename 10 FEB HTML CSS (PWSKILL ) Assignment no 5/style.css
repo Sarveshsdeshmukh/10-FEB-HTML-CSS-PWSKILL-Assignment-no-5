@@ -1,0 +1,647 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+  font-family: "Poppins", sans-serif;
+}
+/* CSS for the Header */
+
+.headerNav{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    height: 12vh;
+    background-color: #111827;
+    padding: 0 6vh;
+}
+
+.headerNav img{
+    width: 4vw;
+    height: 8vh;
+    display: none;
+}
+
+.headerNav img:hover{
+    cursor: pointer;
+}
+
+.headerNavUl{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+   width: 40vw;
+   font-size: 1.8vw;
+}
+
+.headerNavUl li{
+    list-style: none;
+}
+
+.listItem1{
+    background-color: #6804d3;
+    border: 1px solid #6509c7;
+    border-radius:1vw;
+    padding: 0 1vh;
+}
+
+.headerNavUl li a{
+    color: #fff;
+    font-weight: 300;
+    text-decoration: none;
+}
+.headerNavUl li a:hover{
+    cursor: pointer;
+    color: #9b9494;
+}
+
+/* Main Section 1 */
+.mainSection1{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100vw;
+    height: 64vh;
+    background-color: #111827;
+}
+
+.mainSection1Div1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 56vh;
+}
+
+.mainSection1Div1 img{
+    width: 4vw;
+    height: 8vh;
+}
+
+.mainSection1Div1 h1{
+    font-size: 3.6vw;
+    color: #fff;
+    font-weight: 700;
+}
+
+.mainSection1Div1 h3{
+    font-size: 2.8vw;
+    color: #ffff00;
+    font-weight: 500;
+}
+
+.mainSection1Div1Align{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainSection1Div1Align h2{
+    font-size: 2.8vw;
+    color: #fff;
+}
+
+.mainSection1Div2 img{
+    width: 36vw;
+    height: 56vh;
+}
+
+/* Main Section 2 */
+
+.mainSection2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #111827;
+    text-align: center;
+}
+
+.mainSection2 h1{
+    font-size: 2vw;
+    color: #ffffff;
+    text-decoration: underline #0000ff 1vh;
+}
+
+.mainSection2 h2{
+    font-size: 1.6vw;
+    color: #ffffff;
+}
+
+.mainSection2 img{
+    width: 20vw;
+    height: 40vh;
+}
+
+.mainSection2Box1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 50vw;
+}
+
+/* CSS for the Footer */
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    width: 100vw;
+    height: 20vh;
+    background-color: #111827;
+}
+
+.footer h1{
+    font-size: 2vw;
+    color: #ffffff;
+    text-decoration: underline #0000ff 1vh;
+}
+
+.footer img{
+    width: 2vw;
+    height: 4vh;
+    margin-left: 2vw;
+}
+
+/* Max - Width */
+
+@media screen and (max-width : 992px){
+    .headerNav{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+        width: 100vw;
+        height: 9vh;
+        background-color: #111827;
+        padding: 0 6vh;
+    }
+    
+    .headerNav img{
+        width: 4vw;
+        height: 8vh;
+        /* display: none; */
+    }
+    
+    .headerNav img:hover{
+        cursor: pointer;
+    }
+    
+    .headerNavUl{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+       width: 50vw;
+       font-size: 2..2vw;
+    }
+    
+    .headerNavUl li{
+        list-style: none;
+    }
+    
+    .listItem1{
+        background-color: #6804d3;
+        border: 1px solid #6509c7;
+        border-radius:1vw;
+        padding: 0 1vh;
+    }
+    
+    .headerNavUl li a{
+        color: #fff;
+        font-weight: 300;
+        text-decoration: none;
+    }
+    .headerNavUl li a:hover{
+        cursor: pointer;
+        color: #9b9494;
+    }
+    
+    /* Main Section 1 */
+    .mainSection1{
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100vw;
+        height: 60vh;
+        background-color: #111827;
+    }
+    
+    .mainSection1Div1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        height: 50vh;
+    }
+    
+    .mainSection1Div1 img{
+        width: 3vw;
+        height: 6vh;
+    }
+    
+    .mainSection1Div1 h1{
+        font-size: 3.6vw;
+        color: #fff;
+        font-weight: 700;
+    }
+    
+    .mainSection1Div1 h3{
+        font-size: 2.8vw;
+        color: #ffff00;
+        font-weight: 500;
+    }
+    
+    .mainSection1Div1Align{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .mainSection1Div1Align h2{
+        font-size: 2.8vw;
+        color: #fff;
+    }
+    
+    .mainSection1Div2 img{
+        width: 38vw;
+        height: 48vh;
+    }
+    
+    /* Main Section 2 */
+    
+    .mainSection2{
+        display: flex;
+        justify-content:space-evenly;
+        flex-direction: column;
+        align-items: center;
+        width: 100vw;
+        height: 100vh;
+        background-color: #111827;
+        text-align: center;
+    }
+    
+    .mainSection2 h1{
+        font-size: 3vw;
+        color: #ffffff;
+        text-decoration: underline #0000ff 1vh;
+    }
+    
+    .mainSection2 h2{
+        font-size: 2vw;
+        color: #ffffff;
+    }
+    
+    .mainSection2 img{
+        width: 20vw;
+        height: 40vh;
+    }
+    
+    .mainSection2Box1{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 54vw;
+    }
+    
+    /* CSS for the Footer */
+    .footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        text-align: center;
+        width: 100vw;
+        height: 18vh;
+        background-color: #111827;
+    }
+    
+    .footer h1{
+        font-size: 3vw;
+        color: #ffffff;
+        text-decoration: underline #0000ff 1vh;
+    }
+    
+    .footer img{
+        width: 2.5vw;
+        height: 5vh;
+        margin-left: 2vw;
+    }
+}
+
+/* Max width 768  */
+
+@media screen and (max-width : 768px){
+    .headerNav{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+        width: 100vw;
+        height: 8vh;
+        background-color: #111827;
+        padding: 0 6vh;
+    }
+    
+    .headerNav img{
+        width: 4vw;
+        height: 8vh;
+        /* display: none; */
+    }
+    
+    .headerNav img:hover{
+        cursor: pointer;
+    }
+    
+    .headerNavUl{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+       width: 60vw;
+       font-size: 2.4vw;
+    }
+    
+    .headerNavUl li{
+        list-style: none;
+    }
+    
+    .listItem1{
+        background-color: #6804d3;
+        border: 1px solid #6509c7;
+        border-radius:1vw;
+        padding: 0 1vh;
+    }
+    
+    .headerNavUl li a{
+        color: #fff;
+        font-weight: 300;
+        text-decoration: none;
+    }
+    .headerNavUl li a:hover{
+        cursor: pointer;
+        color: #9b9494;
+    }
+    
+    /* Main Section 1 */
+    .mainSection1{
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100vw;
+        height: 50vh;
+        background-color: #111827;
+    }
+    
+    .mainSection1Div1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        height: 40vh;
+    }
+    
+    .mainSection1Div1 img{
+        width: 3vw;
+        height: 5vh;
+    }
+    
+    .mainSection1Div1 h1{
+        font-size: 4vw;
+        color: #fff;
+        font-weight: 700;
+    }
+    
+    .mainSection1Div1 h3{
+        font-size: 3.2vw;
+        color: #ffff00;
+        font-weight: 500;
+    }
+    
+    .mainSection1Div1Align{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .mainSection1Div1Align h2{
+        font-size: 3.4vw;
+        color: #fff;
+    }
+    
+    .mainSection1Div2 img{
+        width: 34vw;
+        height: 40vh;
+    }
+    
+    /* Main Section 2 */
+    
+    .mainSection2{
+        display: flex;
+        justify-content:space-evenly;
+        flex-direction: column;
+        align-items: center;
+        width: 100vw;
+        height: 84vh;
+        background-color: #111827;
+        text-align: center;
+    }
+    
+    .mainSection2 h1{
+        font-size: 3.2vw;
+        color: #ffffff;
+        text-decoration: underline #0000ff 1vh;
+    }
+    
+    .mainSection2 h2{
+        font-size: 2.4vw;
+        color: #ffffff;
+    }
+    
+    .mainSection2 img{
+        width: 24vw;
+        height: 28vh;
+    }
+    
+    .mainSection2Box1{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 64vw;
+    }
+    
+    /* CSS for the Footer */
+    .footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        text-align: center;
+        width: 100vw;
+        height: 16vh;
+        background-color: #111827;
+    }
+    
+    .footer h1{
+        font-size: 3.4vw;
+        color: #ffffff;
+        text-decoration: underline #0000ff 1vh;
+    }
+    
+    .footer img{
+        width: 2vw;
+        height: 4vh;
+        margin-left: 2vw;
+    }
+}
+
+/* Max Width 576px  */
+
+@media screen and (max-width : 576px){
+    .headerNav{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        align-items: center;
+        width: 100vw;
+        height: 10vh;
+        background-color: #111827;
+        padding: 0 4vh;
+    }
+    
+    .headerNav img{
+        display: block;
+        width: 5vw;
+        height: 6vh;
+    }
+    
+    .headerNav img:hover{
+        cursor: pointer;
+    }
+    
+    .headerNavUl{
+        display: none;
+    }
+  
+    
+    /* Main Section 1 */
+    .mainSection1{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 100vw;
+        height: 100vh;
+        background-color: #111827;
+        text-align: center
+    }
+    
+    .mainSection1Div1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 30vh;
+        text-align: center
+    }
+    
+    .mainSection1Div1 img{
+        width: 3vw;
+        height: 4vh;
+    }
+    
+    .mainSection1Div1 h1{
+        font-size: 8vw;
+        color: #fff;
+        font-weight: 700;
+    }
+    
+    .mainSection1Div1 h3{
+        font-size: 5vw;
+        color: #ffff00;
+        font-weight: 500;
+    }
+    
+    .mainSection1Div1Align{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center; 
+        text-align: center
+    }
+    
+    .mainSection1Div1Align h2{
+        font-size: 6vw;
+        color: #fff;
+    }
+    
+    .mainSection1Div2 img{
+        width: 70vw;
+        height: 44vh;
+    }
+    
+    /* Main Section 2 */
+    
+    .mainSection2{
+        display: flex;
+        justify-content:space-evenly;
+        flex-direction: column;
+        align-items: center;
+        width: 100vw;
+        height: 150vh;
+        background-color: #111827;
+        text-align: center;
+    }
+    
+    .mainSection2 h1{
+        font-size: 6vw;
+        color: #ffffff;
+        text-decoration: underline #0000ff 1vh;
+    }
+    
+    .mainSection2 h2{
+        font-size: 5vw;
+        color: #ffffff;
+    }
+    
+    .mainSection2 img{
+        width: 40vw;
+        height: 30vh;
+    }
+    
+    .mainSection2Box1{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 64vw;
+    }
+    
+    /* CSS for the Footer */
+    .footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 100vw;
+        height: 26vh;
+        background-color: #111827;
+        padding-top: 4vh;
+    }
+    
+    .footer h1{
+        font-size: 4vw;
+        color: #ffffff;
+        text-decoration: underline #0000ff 1vh;
+        margin-bottom: 2vh;
+    }
+    
+    .footer img{
+        width: 2.4vw;
+        height: 4vh;
+    }
+}
